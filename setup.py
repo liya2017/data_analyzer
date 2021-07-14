@@ -1,0 +1,32 @@
+from setuptools import setup
+
+setup(
+    name="data_analyzer",
+    version="0.0.1",
+    author="Liya",
+    description="Utils library for ckb data analyze",
+    license="Apache 2.0",
+    install_requires=[
+        'configparser',
+        'sqlalchemy',
+        'pandasgui',
+        'qtstylish',
+        'ipywidgets',
+        'pandas',
+        'numpy',
+        'requests',
+        'matplotlib',
+        'seaborn',
+        'opencv-python',
+        'scipy',
+        'tqdm',
+        'pyyaml',
+        'plotly',
+        'cufflinks',
+        'imageio-ffmpeg',
+        'tabloo',
+        'pillow',
+        'qgrid',    
+        'jupyter_contrib_nbextensions',
+    ],
+)
